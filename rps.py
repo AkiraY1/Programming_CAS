@@ -54,7 +54,7 @@ def main():
     name = input("Enter username: ")
 
     for p in players: #This is what we did last class, iterating through the over players list to check if each individual list has the username the person just typed in
-        if name in p: #If statement happens if the name is in one of the lists inside the players list
+        if name in p: #Checks if the user is in one of the lists inside the players list
             registered = True
             index = players.index(p) #Retrieves the index of the list inside the players list
             print(f"Current Score: {p[1]}")
@@ -73,6 +73,6 @@ def main():
         # Notice that when it calls the play() function, it passes along the variable index, which contains the 
         # position of the current player in the players list (which isnecessary to update players' scores)
 
-#While loop means that the program will never end by itself, so you can keep playing as long as your heart desires :)
+# While loop means that the program will never end by itself, so you can keep playing as long as your heart desires :)
 while True:
     main()
