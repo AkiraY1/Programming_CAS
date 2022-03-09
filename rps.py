@@ -71,7 +71,7 @@ def main():
         index = len(players)-1 
         play(index)
         # Notice that when it calls the play() function, it passes along the variable index, which contains the 
-        # position of the current player in the players list (which isnecessary to update players' scores)
+        # position of the current player in the players list (which is necessary to update players' scores)
 
 # While loop means that the program will never end by itself, so you can keep playing as long as your heart desires :)
 while True:
